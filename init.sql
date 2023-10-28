@@ -1,5 +1,3 @@
-ENV POSTGRES_PASSWORD=password
-ENV POSTGRES_USER=postgres
 
 CREATE TABLE Rooms (
     RoomID  int,
