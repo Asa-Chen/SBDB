@@ -8,26 +8,10 @@ CREATE TABLE Rooms (
     RoomNumber  text,
     Status  text,
     Active  boolean,
-    LastUpdate  bigint
 );
 
 CREATE TABLE Buildings (
     BuildingID  int,
-    BuildingNum     int, 
     BuildingName    text,
     Active  boolean
-);
-
-CREATE TABLE Users (
-    UserID  int,
-    OUEmail     text,
-    Favorites   int[],
-    Permission text
-);
-
-CREATE TABLE HardwareUnits (
-    UnitID  int,
-    RoomID  int,
-    UnitType    text,
-    LastUpdate  time
 );
