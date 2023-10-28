@@ -5,7 +5,7 @@ CREATE TABLE Rooms (
     Floor   int,
     RoomNumber  text,
     Status  text,
-    Active  boolean,
+    Active  boolean
 );
 
 CREATE TABLE Buildings (
